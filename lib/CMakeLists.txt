@@ -21,3 +21,5 @@ qi_use_lib(@project_name@ QI)
 qi_stage_lib(@project_name@)
 
 qi_install_header(${@PROJECT_NAME@_PUBLIC_HEADERS} KEEP_RELATIVE_PATHS)
+
+add_subdirectory(test)
