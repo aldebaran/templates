@@ -1,0 +1,4 @@
+Place your templates here for qisrc to pick up
+
+The folder is the name of the template use
+@PROJECT_NAME@ @project_name@ and so on for placeholders
