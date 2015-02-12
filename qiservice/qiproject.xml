@@ -1,0 +1,8 @@
+<project version="3">
+  <!-- Add your name and e-mail here
+    <maintainer email="...">Your Name</maintainer>
+  -->
+  <qibuild name="@projectname@">
+    <depends buildtime="true" runtime="true" names="libqi" />
+  </qibuild>
+</project>
