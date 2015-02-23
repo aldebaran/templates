@@ -10,7 +10,7 @@ set(PUBLIC_HEADERS
   @projectname@/api.hpp
   @projectname@/@projectname@.hpp
 )
-qi_install_header(${PUBLIC_HEADERS})
+qi_install_header(KEEP_RELATIVE_PATHS ${PUBLIC_HEADERS})
 
 set(PUBLIC_SRCS
   src/@projectname@_proxy.cpp
