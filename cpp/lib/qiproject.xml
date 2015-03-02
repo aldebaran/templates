@@ -1,6 +1,6 @@
 <project version="3">
   <maintainer email="YOUR EMAIL">YOUR NAME</maintainer>
-  <qibuild name="@project_name@">
+  <qibuild name="@projectname@">
     <depends buildtime="true" runtime="true" names="libqi" />
   </qibuild>
 </project>

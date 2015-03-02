@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include <@project_name@/@project_name@.hpp>
+#include <@projectname@/@projectname@.hpp>
 
 TEST(@PROJECT_NAME@, foo) {
   ASSERT_EQ(42, foo());
