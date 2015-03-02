@@ -13,7 +13,7 @@ set(@PROJECT_NAME@_SOURCES
   src/@projectname@.cpp
 )
 
-qi_create_lib(@projectname@
+qi_create_lib(@projectname@ SHARED
   ${@PROJECT_NAME@_SOURCES}
 )
 
