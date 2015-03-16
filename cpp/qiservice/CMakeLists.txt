@@ -12,7 +12,7 @@ set(PUBLIC_HEADERS
 )
 qi_install_header(KEEP_RELATIVE_PATHS ${PUBLIC_HEADERS})
 
-set(PUBLIC_SRCS
+set(SRCS
   src/@projectname@_proxy.cpp
   src/registration.cpp
 )
@@ -20,7 +20,7 @@ set(PUBLIC_SRCS
 qi_create_lib(@projectname@lib
   SRC
     ${PUBLIC_HEADERS}
-    ${PUBLIC_SRCS}
+    ${SRCS}
   DEPENDS
     QI
 )
@@ -28,8 +28,6 @@ qi_stage_lib(@projectname@lib)
 
 qi_create_module(@projectname@
   SRC
-    ${PUBLIC_HEADERS}
-    ${PUBLIC_SRCS}
     src/@projectname@impl.cpp
     src/@projectname@impl.hpp
   DEPENDS
